@@ -28,3 +28,7 @@ and you can create specific codes to encryption and share them with people who y
 and you can lock the app
 
 ![Screenshot_20230604_192626_kurdmessenger](https://github.com/rebwar-me/kurdmessenger/assets/133606750/5c64f5a1-05ed-4082-8f75-f1cb3ddee20e)
+
+*****************************************************************************************************
+aboute the app
+![Screenshot_20230604_185841_kurdmessenger](https://github.com/rebwar-me/kurdmessenger/assets/133606750/cc3c401d-263f-4289-b7c7-dba9cc22725f)
