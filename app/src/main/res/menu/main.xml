@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Createcode"
+        android:title="ساخت کد"
+        android:icon="@drawable/createcode"/>
+    <item
+        android:id="@+id/codeinc"
+        android:title="کد ها"
+        android:icon="@drawable/codes"/>
+    <item
+        android:id="@+id/lockoff"
+        android:title="غیرفعال کردن قفل"
+        android:icon="@drawable/unlocked"
+        />
+    <item
+        android:id="@+id/Lock"
+        android:title="قفل برنامه"
+        android:icon="@drawable/locked"
+        />
+    <!--<item-->
+        <!--android:id="@+id/delmsg"-->
+        <!--android:title="Notification on/off"/>-->
+    <item
+        android:id="@+id/aboute"
+        android:title="راهنما "
+        android:icon="@drawable/help"/>
+
+</menu>

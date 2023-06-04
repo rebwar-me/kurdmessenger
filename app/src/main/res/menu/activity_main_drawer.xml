@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tar"
+            android:icon="@drawable/ictar"
+            android:title="ترکیب کدها" />
+        <item
+            android:id="@+id/Createcode"
+            android:icon="@drawable/iccreate"
+            android:title="ساخت کد" />
+        <item
+            android:id="@+id/codeinc"
+            android:icon="@drawable/iccode"
+            android:title="کد های ترجمه" />
+        <item
+            android:id="@+id/Lock"
+            android:icon="@drawable/iclock"
+            android:title="قفل برنامه"/>
+    </group>
+
+    <item android:title="ارتباط">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="اشتراک گذاری" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ارسال" />
+        </menu>
+    </item>
+
+</menu>

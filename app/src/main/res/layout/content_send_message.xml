@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bg_lock"
+    tools:context=".SendMessageActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:id="@+id/txt_contact_name"
+            android:textSize="20dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/txt_contact_name"
+
+            >
+            <EditText
+                android:id="@+id/phonenumber_et"
+                android:focusedByDefault="true"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/input"
+                android:ems="11"
+                android:inputType="phone"
+                android:layout_marginRight="53dp"
+                android:layout_alignParentLeft="true"
+                android:textAlignment="viewEnd"
+                android:hint="َشماره تلفن را وارد کنید"
+                />
+
+            <ImageView
+                android:id="@+id/addcontact_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_contact" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rootviewc"
+        android:paddingBottom="15dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="46dp"
+            android:maxHeight="200dp"
+            android:id="@+id/msg_et"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/send_btn"
+            android:background="@drawable/input"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="3dp"
+            android:padding="6dp"
+            android:allowUndo="true"
+            android:layout_marginBottom="20dp"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_send"
+            android:id="@+id/send_btn"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

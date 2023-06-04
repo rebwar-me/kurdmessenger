@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorControlHighlight">@color/colorHighlight</item>
+    </style>
+
+    <style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#171f4f</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabPaddingStart">8dp</item>
+        <item name="tabPaddingEnd">8dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/TabTextAppearance</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+    </style>
+
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#ffffff</item>
+    </style>
+
+    <style name="TextLabel" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorControlActivated">#fff</item>
+    </style>
+
+    <style name="Translucent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#0288D1</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="maina" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/grey</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="MyRadioButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/c</item>
+        <item name="colorControlActivated">@color/pink</item>
+        <item name="tabIndicatorColor">#fff</item>
+    </style>
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/primary</item>
+        <item name="colorControlActivated">@color/pink</item>
+    </style>
+
+    <style name="SV" parent="Base.Widget.AppCompat.SearchView">
+        <item name="android:hint">serach</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textColorHint">@color/accent</item>
+        <item name="android:editTextColor">@color/primary</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.TransNav" parent="AppTheme" />
+
+
+    <style name="s1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/primary_slide1</item>
+    </style>
+
+    <style name="s2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/primary</item>
+    </style>
+
+    <style name="s3" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/primary_slide3</item>
+    </style>
+
+
+    <style name="MyD" parent="android:Theme.Holo.Dialog">
+        <item name="android:alertDialogStyle">@style/MyDialog</item>
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:textColorPrimary">@color/eee</item>
+        <item name="android:textColor">@color/eee</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="MyDialog">
+        <item name="android:bottomBright">@color/primary</item>
+        <item name="android:bottomDark">@color/primary</item>
+        <item name="android:bottomMedium">@color/primary</item>
+        <item name="android:centerBright">@color/primary</item>
+        <item name="android:centerDark">@color/primary</item>
+        <item name="android:centerMedium">@color/primary</item>
+        <item name="android:fullBright">@color/primary</item>
+        <item name="android:fullDark">@color/primary</item>
+        <item name="android:topBright">@color/primary</item>
+        <item name="android:topDark">@color/primary</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+
+</resources>

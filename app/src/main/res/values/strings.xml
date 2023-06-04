@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">kurdmessenger</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_chat">ChatActivity</string>
+
+    <string name="title_activity_send_message">SendMessageActivity</string>
+    <string name="title_activity_get_contact">GetContactActivity</string>
+    <string name="title_activity_create_code">CreateCodeActivity</string>
+    <string name="title_activity_codes">CodesActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+    <string name="aboute">این برنامه جهت امنیت فرستادن پیام طراحی شده و به صورت پیش فرض پیام های شما را رمز میکند ولی شما میتوانید درصفحه ساخت کد کدی را بسازید و
+        درصفحه کدها میتوانید کد را برای کس دیگه ای بفرستید یا مخاطبی را به کد اضافه کنید واین بدان معناست که
+    هر پیامی که بین شما و این مخاطب رد وبدل میشود براساس این کد رمز و ترجمه میشود
+        اگر کد شما به دست مخاطبی که کدرا برایش ارسال کرده اید نرسد نمتواند پیام شمارا ترجمه کند وقتی کدی را برای شما میفرستند برنامه به صورت خودکار کد را برای شما ذخیره میکند البته بعد از تایید اینکه کد به شماره درست امده یا نه,
+        برای تایید, برنامه از شماره شما یک پیامک به خودتون میفرستد اگر شارژ نداشته باشید یا شبکه یا بنا به هر دلیلی پیام تایید فرستاده شده به خودشما برنگردد باید از مخاطب فرستنده در خواست کنید دوباره کد را بفرستد
+        ازمیان میلیونها احتمال برای ساخت کد فقط یک احتمال میتواند پیام را ترجمه کند که همان کدیست که شما ساخته اید شما میتواند ده کد داشته باشید وبرای هر کد ده مخاطب. \n
+    </string>
+    <string name="i1">
+        مهم 1 :این برنامه با عجله ساخته شده و ممکن است مشکلاتی داشته باشد که رفع خواهد شد مثلا در بعضی از گوشیهای چینی ممکن است به درستی کار نکند بنا بر این وقتی برنامه را لازم دارید کامل از برنامه خارج نشوید
+    </string>
+
+    <string name="i2">
+        مهم 2 : اگر برنامه را قفل کردید و رمز را فراموش کردید تمام پیام ها از بین میرود. از تنضیمات اطلاعات را پاک کنید تا دوباره برنامه باز شود
+    </string>
+    <string name="title_activity_lock">LockActivity</string>
+    <string name="title_activity_app_locker">AppLocker</string>
+</resources>

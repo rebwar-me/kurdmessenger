@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/chatview">
+
+    <android.support.v7.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:id="@+id/msgview"
+        android:layout_width="wrap_content"
+        android:layout_gravity="left"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/primary"
+        app:cardCornerRadius="7dp"
+        android:padding="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="3dp"
+        >
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/primary"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="left"
+            >
+            <TextView
+                android:text="  username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/txtusetn" />
+
+            <TextView
+                android:text="Mmmmmsssssssaggggeeeeeeeeeeeeeeeeeeeee"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:textColor="#eee"
+                android:id="@+id/txtmsg"
+                android:gravity="right"
+                android:layout_gravity="right"
+                />
+
+
+            <TextView
+                android:text="   2/1/2017 8:30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#eee"
+                android:id="@+id/txttime"
+                android:layout_marginTop="15dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <!--            sender = up          reciver = down    -->
+    <android.support.v7.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:id="@+id/msgviewy"
+        android:layout_width="wrap_content"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#eee"
+        app:cardCornerRadius="7dp"
+        android:padding="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        >
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#eee"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:padding="3dp"
+            android:gravity="right"
+            >
+            <TextView
+                android:text=" شما "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView111"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:text="Mmmmmsssssssaggggeeeeeeeeeeeeeeeeeeeee"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtmsgy"
+                android:gravity="right"
+                android:textColor="@color/primary"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+                <TextView
+                    android:text="   2/1/2017 8:30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txttimey"
+                    android:textColor="@color/primary"
+                    android:textSize="12dp"
+                    android:textStyle="bold"/>
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:src="@drawable/sending"
+                    android:gravity="right"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/sent"
+                    />
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:src="@drawable/sending"
+                    android:gravity="right"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/tahvil"
+                    />
+                <!--stat_notify_sync_noanim-->
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

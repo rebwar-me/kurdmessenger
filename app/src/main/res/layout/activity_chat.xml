@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Kurdmessenger.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.Kurdmessenger.PopupOverlay" >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="6dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15dp"
+                    android:text="name"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:id="@+id/titlename"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:textSize="9dp"
+                    android:text="name"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:layout_marginTop="3dp"
+                    android:id="@+id/titlenum"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <include layout="@layout/content_chat" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rootviewc"
+        android:paddingBottom="10dp"
+        android:background="@color/white"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="46dp"
+            android:maxHeight="150dp"
+            android:id="@+id/msg_et"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/send_btn"
+            android:background="@drawable/input"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="3dp"
+            android:padding="6dp"
+            android:allowUndo="true"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_send"
+            android:id="@+id/send_btn"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

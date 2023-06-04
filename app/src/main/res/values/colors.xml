@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary_dark">#000000</color>
+    <color name="primary">#212121</color>
+    <color name="primary_bg">#303030</color>
+    <color name="accent">#424242</color>
+    <color name="eee">#eee</color>
+
+    <color name="pink">#ff3399</color>
+    <color name="grey">#757575</color>
+    <color name="colorHighlight">#F3E5F5</color>
+    <color name="c">#884dff</color>
+    <color name="cc">#9966ff</color>
+
+    <color name="bgslid1">#424242</color>
+    <color name="primary_slide1">#212121</color>
+    <color name="bgslid2">#424242</color>
+
+    <color name="bgslid3">#424242</color>
+    <color name="primary_slide3">#212121</color>
+
+    <color name="dot_inavtive">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="dot_avtive">#cccccc</color>
+    <color name="green">#2E7D32</color>
+    <color name="yllow">#C6FF00</color>
+    <color name="oreng">#FF5722</color>
+    <color name="q">#4E342E</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
