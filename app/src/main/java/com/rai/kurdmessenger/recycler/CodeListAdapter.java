@@ -20,7 +20,7 @@ import com.rai.kurdmessenger.log.L;
 import java.util.ArrayList;
 
 /**
- * Created by DS on 01/01/2009.
+ * Created Created by @rebwar_me.
  */
 
 public class CodeListAdapter extends RecyclerView.Adapter<CodeListAdapter.MyViewHolder> {

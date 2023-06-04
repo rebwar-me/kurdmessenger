@@ -16,6 +16,10 @@ import androidx.navigation.ui.NavigationUI;
 import com.rai.kurdmessenger.app.MyApplication;
 import com.rai.kurdmessenger.databinding.ActivityAppLockerBinding;
 
+/**
+ * Created Created by @rebwar_me.
+ */
+
 public class AppLocker extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;

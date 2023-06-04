@@ -3,7 +3,7 @@ package com.rai.kurdmessenger.InDeCrypter;
 import com.rai.kurdmessenger.Compress.Compressor;
 
 /**
- * Created by AlexDS on 10/20/2017.
+ * Created Created by @rebwar_me.
  */
 
 public class CreateChars {

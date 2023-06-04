@@ -7,6 +7,10 @@ import com.rai.kurdmessenger.recycler.MsgModel;
 
 import java.util.ArrayList;
 
+/**
+ * Created Created by @rebwar_me.
+ */
+
 public class MsgListUtil {
     public static ArrayList<MsgModel> loadMsgs(String number) {
 

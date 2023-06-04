@@ -8,6 +8,10 @@ import com.rai.kurdmessenger.recycler.MsgModel;
 
 import java.util.ArrayList;
 
+/**
+ * Created Created by @rebwar_me.
+ */
+
 public class TaskLoadMsg extends AsyncTask<Void, Void, ArrayList<MsgModel>> {
     private MsgInterface myComponent;
     private String number;

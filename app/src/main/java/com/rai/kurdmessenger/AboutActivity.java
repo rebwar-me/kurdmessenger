@@ -12,6 +12,10 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.rai.kurdmessenger.databinding.ActivityAboutBinding;
 
+/**
+ * Created Created by @rebwar_me.
+ */
+
 public class AboutActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;

@@ -43,6 +43,10 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 
+/**
+ * Created Created by @rebwar_me.
+ */
+
 public class ChatActivity extends AppCompatActivity implements MsgInterface {
 
     private ActivityChatBinding binding;

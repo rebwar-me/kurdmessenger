@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
- * Created by alex on 01/01/2009.
+ * Created Created by @rebwar_me.
  */
 
 public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.MyViewHolder> {

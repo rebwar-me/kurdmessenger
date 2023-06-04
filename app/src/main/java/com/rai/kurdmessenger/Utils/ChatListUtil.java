@@ -10,9 +10,8 @@ import com.rai.kurdmessenger.recycler.ChatModel;
 import java.util.ArrayList;
 
 /**
- * Created by Alex DS on 10/21/2017.
+ * Created Created by @rebwar_me.
  */
-
 public class ChatListUtil {
 
     public static ArrayList<ChatModel> loadChatList() {

@@ -43,6 +43,10 @@ import com.rai.kurdmessenger.task.TaskLoadeCodesContact;
 
 import java.util.ArrayList;
 
+/**
+ * Created Created by @rebwar_me.
+ */
+
 public class GetContactActivity extends AppCompatActivity  implements CodesContactInterface {
 
     private AppBarConfiguration appBarConfiguration;

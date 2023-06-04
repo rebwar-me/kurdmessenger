@@ -27,7 +27,7 @@ import java.util.HashMap;
 import static android.content.Context.LAYOUT_INFLATER_SERVICE;
 
 /**
- * Created by alex on 01/01/2009.
+ * Created Created by @rebwar_me.
  */
 
 public class MsgListAdapter extends RecyclerView.Adapter<MsgListAdapter.MyViewHolder> {

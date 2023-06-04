@@ -23,6 +23,10 @@ import com.rai.kurdmessenger.log.L;
 
 import java.util.Random;
 
+/**
+ * Created Created by @rebwar_me.
+ */
+
 
 public class CreateCodeActivity extends AppCompatActivity {
 

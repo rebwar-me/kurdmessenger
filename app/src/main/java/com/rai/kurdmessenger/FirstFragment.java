@@ -12,6 +12,10 @@ import androidx.navigation.fragment.NavHostFragment;
 
 import com.rai.kurdmessenger.databinding.FragmentFirstBinding;
 
+/**
+ * Created Created by @rebwar_me.
+ */
+
 public class FirstFragment extends Fragment {
 
     private FragmentFirstBinding binding;

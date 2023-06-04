@@ -1,7 +1,7 @@
 package com.rai.kurdmessenger.InDeCrypter;
 
 /**
- * Created by alex on 01/01/2009.
+ * Created Created by @rebwar_me.
  */
 
 public class DeCrypte {

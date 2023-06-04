@@ -6,9 +6,8 @@ import com.rai.kurdmessenger.callbacks.CodesContactInterface;
 import com.rai.kurdmessenger.recycler.CodeContacModel;
 
 import java.util.ArrayList;
-
 /**
- * Created by DS on 10/21/2017.
+ * Created Created by @rebwar_me.
  */
 
 public class TaskLoadeCodesContact extends AsyncTask<Void, Void, ArrayList<CodeContacModel>> {

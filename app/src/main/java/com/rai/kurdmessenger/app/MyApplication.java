@@ -10,7 +10,7 @@ import com.android.volley.toolbox.ImageLoader;
 import com.rai.kurdmessenger.db.smsDB;
 
 /**
- * Created by Windows on 30-01-2015.
+ * Created by @rebwar_me.
  */
 public class MyApplication extends Application {
 

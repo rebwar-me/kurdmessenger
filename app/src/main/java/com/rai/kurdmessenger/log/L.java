@@ -5,7 +5,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 /**
- * Created by Windows on 13-01-2015.
+ * Created Created by @rebwar_me.
  */
 public class L {
     public static void m(String message) {

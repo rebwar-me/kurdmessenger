@@ -18,6 +18,10 @@ import com.rai.kurdmessenger.app.MyApplication;
 import com.rai.kurdmessenger.databinding.ActivityLockBinding;
 import com.rai.kurdmessenger.log.L;
 
+/**
+ * Created Created by @rebwar_me.
+ */
+
 public class LockActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;

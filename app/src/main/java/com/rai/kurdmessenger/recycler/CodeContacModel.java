@@ -3,6 +3,10 @@ package com.rai.kurdmessenger.recycler;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+/**
+ * Created Created by @rebwar_me.
+ */
+
 public class CodeContacModel  implements Parcelable {
     public static final Parcelable.Creator<CodeContacModel> CREATOR
             = new Parcelable.Creator<CodeContacModel>() {

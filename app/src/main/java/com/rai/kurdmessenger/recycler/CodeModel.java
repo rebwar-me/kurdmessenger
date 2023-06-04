@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Created by DS on 01/01/2009.
+ * Created Created by @rebwar_me.
  */
 
 public class CodeModel implements Parcelable {

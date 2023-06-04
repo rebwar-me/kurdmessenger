@@ -17,7 +17,7 @@ import com.rai.kurdmessenger.log.L;
 import java.util.ArrayList;
 
 /**
- * Created by DS on 10/25/2017.
+ * Created Created by @rebwar_me.
  */
 
 public class ContactByCodeAdapter  extends RecyclerView.Adapter<ContactByCodeAdapter.MyViewHolder> {

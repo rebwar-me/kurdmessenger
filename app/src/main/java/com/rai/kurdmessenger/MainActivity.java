@@ -39,6 +39,10 @@ import android.view.animation.OvershootInterpolator;
 
 import java.util.ArrayList;
 
+/**
+ * Created Created by @rebwar_me.
+ */
+
 public class MainActivity extends AppCompatActivity implements ChatInterface {
 
     private AppBarConfiguration appBarConfiguration;

@@ -24,6 +24,10 @@ import java.util.Calendar;
 import java.util.Random;
 import java.util.concurrent.Executor;
 
+/**
+ * Created Created by @rebwar_me.
+ */
+
 public class SmsReceiver extends BroadcastReceiver
 {
 	String Name ,Num,Sms;

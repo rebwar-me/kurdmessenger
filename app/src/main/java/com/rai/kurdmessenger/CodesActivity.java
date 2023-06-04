@@ -27,6 +27,9 @@ import com.rai.kurdmessenger.recycler.CodeModel;
 import com.rai.kurdmessenger.task.TaskLoadeCodes;
 
 import java.util.ArrayList;
+/**
+ * Created Created by @rebwar_me.
+ */
 
 public class CodesActivity extends AppCompatActivity implements CodeInterface {
 
